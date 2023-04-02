@@ -1,1 +1,2 @@
-web: python little.py
+web: python little.py --timeout 120
+
