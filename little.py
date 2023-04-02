@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()  # load environment variables from .env file
 
-telegram_bot_token = os.getenv('6121818840:AAHijB2_3SP6NdcoSNqE_7O-CNORC5WANaY')
+telegram_bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
+
 openai_api_key = os.getenv('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')
 
 bot = telegram.Bot(token=telegram_bot_token)
